@@ -1,7 +1,7 @@
-##Docker by Culhy
+## Docker by Culhy
 
 
-###deploy:
+### deploy:
 * create **.env** and **.docker/mariadb/.env** from sample
 ```shell script
 cp .env.sample .env
@@ -13,13 +13,13 @@ cp .docker/mariadb/.env.sample .docker/mariadb/.env
 ```
 
 
-###stop:
+### stop:
 * run **.bin/stop.sh**
 ```shell script
 .bin/stop.sh
 ```
 
-####possible problems:
+#### possible problems:
 * rights and formating - run script below
 ```shell script
 chmod 777 ./.bin -R
