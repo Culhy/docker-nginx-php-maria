@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+
+  nginx:
+    volumes:
+      - demo-sync-volume:/var/www/html
+
+  php:
+    volumes:
+      - demo-sync-volume:/var/www/html
+
+  mariadb:
+    volumes:
+      - database:/var/lib/mysql
+
+volumes:
+  demo-sync-volume:
+    external: true
+  database:
+    name: database

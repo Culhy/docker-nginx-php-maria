@@ -1,0 +1,8 @@
+version: "2"
+syncs:
+  demo-sync-volume:
+    sync_strategy: unison
+    max_attempt: 30
+    src: ./src
+    host_disk_mount_mode: delegatedphp.ini
+    sync_excludes: ['log', 'temp', '.docker-sync', '.idea', '.git', '.docker']

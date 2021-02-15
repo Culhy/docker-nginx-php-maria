@@ -1,0 +1,8 @@
+
+.env
+
+.docker/mariadb/data/
+
+.idea/
+
+log/
